@@ -56,7 +56,7 @@ p10k configure
 zsh-completions
 
 ```bash
-  git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
 ```
 
 zsh-autosuggestions
@@ -81,5 +81,3 @@ zsh-autosuggestions
 zsh-syntax-highlighting
 )
 ```
-
-

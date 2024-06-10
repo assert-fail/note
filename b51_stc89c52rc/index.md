@@ -32,11 +32,11 @@ error: externally-managed-environment
 ╰─> To install Python packages system-wide, try 'pacman -S
     python-xyz', where xyz is the package you are trying to
     install.
-    
+
     If you wish to install a non-Arch-packaged Python package,
     create a virtual environment using 'python -m venv path/to/venv'.
     Then use path/to/venv/bin/python and path/to/venv/bin/pip.
-    
+
     If you wish to install a non-Arch packaged Python application,
     it may be easiest to use 'pipx install xyz', which will manage a
     virtual environment for you. Make sure you have python-pipx
@@ -107,7 +107,6 @@ If this is a framework-dependent application, install the runtime in the global 
 
 The .NET runtime can be found at:
   - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=arch-x64&apphost_version=6.0.2
-
 ```
 
 可以去微软找Ubuntu24的dotnet安装教程
