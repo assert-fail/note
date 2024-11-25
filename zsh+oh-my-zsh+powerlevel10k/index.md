@@ -11,7 +11,7 @@ sudo apt-get install zsh
 将zsh设置为默认shell并且注销一次
 
 ```bash
-sudo chsh -s $(which zsh)
+chsh -s $(which zsh) [username[
 ```
 
 选择2创建`~/.zshrc`文件
